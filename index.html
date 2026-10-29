@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101010">
+  <meta name="description" content="Portal do Aluno GESTKA — treinamento introdutório de CFTV e prática com simulador.">
+  <title>Portal do Aluno | GESTKA CFTV</title>
+  <link rel="icon" href="assets/gestka-logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#inicio" aria-label="GESTKA — início">
+        <img src="assets/gestka-logo.svg" alt="" width="48" height="48">
+        <span><strong>GESTKA</strong><small>GESTÃO EM SEGURANÇA</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Abrir menu">☰</button>
+      <nav id="mainNav" class="main-nav" aria-label="Menu principal">
+        <a href="#inicio">Início</a>
+        <a href="#treinamento">O treinamento</a>
+        <a href="#simulador">Simulador CFTV</a>
+        <a href="#guia">Guia prático</a>
+        <a href="#suporte">Suporte</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="inicio">
+      <div class="hero-pattern" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> PORTAL DO ALUNO · CFTV</p>
+          <h1>Aprenda CFTV na prática. <span>Desenvolva seu olhar operacional.</span></h1>
+          <p class="hero-lead">Explore os fundamentos do circuito fechado de televisão, reconheça equipamentos e pratique a observação de imagens com apoio de um simulador externo.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#simulador">Acessar simulador <span aria-hidden="true">↗</span></a>
+            <a class="button button-ghost" href="#treinamento">Conhecer o treinamento</a>
+          </div>
+          <div class="hero-note"><span class="status-dot"></span> Conteúdo de apoio para estudo e prática</div>
+        </div>
+        <div class="hero-art">
+          <img src="assets/hero-control-room.svg" alt="Ilustração de uma central de monitoramento com telas de CFTV" width="720" height="560">
+          <div class="floating-tag"><span class="tag-icon">◉</span><span><strong>Olhar atento</strong><small>Observe · Analise · Registre</small></span></div>
+        </div>
+      </div>
+      <div class="hero-bottom-line"></div>
+    </section>
+
+    <section class="trust-strip" aria-label="Destaques do portal">
+      <div class="container trust-grid">
+        <div><span class="trust-icon">01</span><span><strong>Aprenda os conceitos</strong><small>Equipamentos e fundamentos</small></span></div>
+        <div><span class="trust-icon">02</span><span><strong>Pratique no simulador</strong><small>Explore controles e visualizações</small></span></div>
+        <div><span class="trust-icon">03</span><span><strong>Desenvolva método</strong><small>Observe e registre ocorrências</small></span></div>
+      </div>
+    </section>
+
+    <section class="section" id="treinamento">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">SUA JORNADA DE APRENDIZADO</p>
+          <h2>Conhecimento que se transforma em prática.</h2>
+          <p>Use este portal como ponto de partida para estudar os componentes de um sistema de CFTV e exercitar uma rotina organizada de monitoramento.</p>
+        </div>
+        <div class="learning-grid">
+          <article class="learning-card">
+            <div class="card-number">01 / FUNDAMENTOS</div>
+            <div class="card-visual visual-dark"><img src="assets/camera-bullet.svg" alt="Ilustração de câmera de segurança tipo bullet"></div>
+            <h3>Conheça os equipamentos</h3>
+            <p>Identifique câmeras, lentes, iluminação, gravação e os elementos que compõem uma solução de videomonitoramento.</p>
+            <a class="text-link" href="#guia">Explorar o guia <span>→</span></a>
+          </article>
+          <article class="learning-card">
+            <div class="card-number">02 / OPERAÇÃO</div>
+            <div class="card-visual visual-yellow"><img src="assets/camera-dome.svg" alt="Ilustração de câmera de segurança tipo dome"></div>
+            <h3>Entenda o campo de visão</h3>
+            <p>Observe enquadramento, pontos cegos, iluminação e a importância de selecionar uma visualização adequada.</p>
+            <a class="text-link" href="#guia">Ver conceitos <span>→</span></a>
+          </article>
+          <article class="learning-card">
+            <div class="card-number">03 / PRÁTICA</div>
+            <div class="card-visual visual-light"><img src="assets/camera-ptz.svg" alt="Ilustração de câmera PTZ com movimento panorâmico e inclinação"></div>
+            <h3>Pratique com responsabilidade</h3>
+            <p>Use o simulador para experimentar comandos e desenvolver atenção, registro objetivo e comunicação clara.</p>
+            <a class="text-link" href="#simulador">Ir para prática <span>→</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="simulator-section" id="simulador">
+      <div class="container simulator-grid">
+        <div class="simulator-copy">
+          <p class="eyebrow">AMBIENTE DE PRÁTICA</p>
+          <h2>Entre no simulador de CFTV.</h2>
+          <p>O simulador é uma ferramenta externa. Ao abri-lo, você sairá temporariamente deste portal. Siga as instruções disponíveis na própria ferramenta e retorne a esta página para revisar o guia.</p>
+          <ul class="check-list">
+            <li><span>✓</span> Explore os ângulos e o campo de visão</li>
+            <li><span>✓</span> Teste zoom e controles disponíveis</li>
+            <li><span>✓</span> Observe como o movimento altera a imagem</li>
+            <li><span>✓</span> Pratique sem interferir em sistemas reais</li>
+          </ul>
+          <a class="button button-primary" href="https://cctv-simulator.com/simulator" target="_blank" rel="noopener noreferrer">Abrir simulador externo <span aria-hidden="true">↗</span></a>
+          <p class="small-note">A disponibilidade e os recursos do simulador dependem do site externo.</p>
+        </div>
+        <div class="simulator-visual">
+          <div class="monitor-frame">
+            <div class="monitor-top"><span class="monitor-brand">GESTKA <i>●</i> LIVE VIEW</span><span class="live-label"><b></b> SIMULAÇÃO</span></div>
+            <div class="monitor-screen">
+              <div class="screen-grid"></div>
+              <div class="screen-crosshair"></div>
+              <div class="screen-label top-left">CAM 01 · VISÃO GERAL</div>
+              <div class="screen-label bottom-left">MODO DE ESTUDO</div>
+              <div class="screen-time">REC <span>●</span></div>
+              <div class="screen-building"><span></span><span></span><span></span><span></span></div>
+            </div>
+            <div class="monitor-controls"><span>◀</span><div class="control-line"></div><span>▶</span><div class="control-pill">ZOOM + / −</div></div>
+          </div>
+          <div class="simulator-caption"><span class="caption-icon">ⓘ</span><span><strong>Prática orientada</strong><small>O painel acima é uma ilustração, não uma transmissão real.</small></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section guide-section" id="guia">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">GUIA RÁPIDO</p>
+          <h2>Controles e conceitos essenciais.</h2>
+          <p>Os nomes e comandos podem variar conforme o equipamento ou simulador utilizado.</p>
+        </div>
+        <div class="guide-grid">
+          <article class="guide-item"><div class="guide-symbol">⌕</div><div><h3>Zoom</h3><p>Aproxima ou afasta a visualização. Confira se a ampliação preserva detalhes úteis; zoom digital excessivo pode reduzir a nitidez.</p></div></article>
+          <article class="guide-item"><div class="guide-symbol">↔</div><div><h3>Pan — movimento horizontal</h3><p>Permite deslocar a câmera para a esquerda ou direita quando o equipamento oferece esse recurso.</p></div></article>
+          <article class="guide-item"><div class="guide-symbol">↕</div><div><h3>Tilt — movimento vertical</h3><p>Move o enquadramento para cima ou para baixo, ajudando a observar diferentes áreas.</p></div></article>
+          <article class="guide-item"><div class="guide-symbol">◷</div><div><h3>Velocidade</h3><p>Quando disponível, ajuste a velocidade de movimento para evitar passar rapidamente por pontos relevantes.</p></div></article>
+          <article class="guide-item"><div class="guide-symbol">◉</div><div><h3>Campo de visão</h3><p>Observe o que está visível, o que fica fora do enquadramento e possíveis obstruções ou reflexos.</p></div></article>
+          <article class="guide-item"><div class="guide-symbol">▤</div><div><h3>Registro objetivo</h3><p>Descreva fatos observáveis com horário, local/câmera e sequência dos acontecimentos, sem tirar conclusões precipitadas.</p></div></article>
+        </div>
+        <div class="practice-box">
+          <div class="practice-icon">✓</div>
+          <div><h3>Desafio de prática</h3><p>Abra o simulador e escolha uma área para observar. Identifique três elementos visíveis, verifique o enquadramento e escreva um breve registro factual do que observou.</p></div>
+          <button class="button button-outline" id="showChecklist" type="button" aria-expanded="false" aria-controls="practiceChecklist">Ver checklist</button>
+        </div>
+        <div class="checklist-panel" id="practiceChecklist" hidden>
+          <label><input type="checkbox"> Identifiquei a câmera ou a área observada.</label>
+          <label><input type="checkbox"> Verifiquei o enquadramento e possíveis pontos cegos.</label>
+          <label><input type="checkbox"> Observei sem presumir informações não visíveis.</label>
+          <label><input type="checkbox"> Registrei os fatos de forma clara e objetiva.</label>
+          <p class="small-note">Esta lista é local e não envia nem salva dados em um servidor.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="support-section" id="suporte">
+      <div class="container support-grid">
+        <div>
+          <p class="eyebrow">PRECISA DE AJUDA?</p>
+          <h2>Conte com o suporte GESTKA.</h2>
+          <p>Se tiver dúvidas sobre o acesso ao portal ou sobre as orientações do treinamento, entre em contato pelo canal de atendimento.</p>
+        </div>
+        <a class="button button-dark" href="https://wa.me/5581995118178?text=Ol%C3%A1%2C%20preciso%20de%20suporte%20no%20Portal%20do%20Aluno%20GESTKA%20CFTV." target="_blank" rel="noopener noreferrer">Falar com o suporte no WhatsApp <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand footer-brand" href="#inicio"><img src="assets/gestka-logo.svg" alt="" width="42" height="42"><span><strong>GESTKA</strong><small>GESTÃO EM SEGURANÇA</small></span></a>
+      <p>Conhecimento prático. Segurança que previne.</p>
+      <p class="copyright">© <span id="year"></span> GESTKA. Conteúdo educacional de apoio.</p>
+    </div>
+    <div class="container footer-disclaimer">Este portal é um ambiente de apoio educacional. Não substitui formação, habilitação, autorização ou procedimentos exigidos pela legislação aplicável às atividades regulamentadas. O simulador é um serviço externo e não é operado pela GESTKA.</div>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+</html>

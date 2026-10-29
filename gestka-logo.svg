@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Símbolo GESTKA">
+<rect width="100" height="100" rx="20" fill="#101010"/>
+<path d="M50 9 82 21v24c0 23-14 37-32 46C32 82 18 68 18 45V21Z" fill="none" stroke="#F5C400" stroke-width="4"/>
+<path d="M66 34a23 23 0 1 0 3 25H51V47h30v8c-2 19-15 31-31 31a36 36 0 1 1 27-60Z" fill="#F5C400"/>
+</svg>

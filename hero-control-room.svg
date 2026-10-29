@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560">
+<defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#272927"/><stop offset="1" stop-color="#0c0d0c"/></linearGradient><linearGradient id="screen" x2="1" y2="1"><stop stop-color="#465c51"/><stop offset="1" stop-color="#17241f"/></linearGradient><linearGradient id="gold" x2="1" y2="1"><stop stop-color="#ffe36c"/><stop offset="1" stop-color="#c69a00"/></linearGradient><filter id="shadow"><feGaussianBlur stdDeviation="12"/></filter></defs>
+<ellipse cx="365" cy="497" rx="270" ry="25" fill="#000" opacity=".45" filter="url(#shadow)"/>
+<rect x="38" y="30" width="644" height="420" rx="22" fill="#292b28" stroke="#53564f" stroke-width="2"/>
+<rect x="54" y="47" width="612" height="386" rx="13" fill="#111311"/>
+<g stroke="#5b5e55" stroke-width="2">
+<rect x="70" y="64" width="183" height="105" rx="5" fill="url(#screen)"/><rect x="268" y="64" width="183" height="105" rx="5" fill="url(#screen)"/><rect x="466" y="64" width="183" height="105" rx="5" fill="url(#screen)"/>
+<rect x="70" y="183" width="183" height="105" rx="5" fill="url(#screen)"/><rect x="268" y="183" width="183" height="105" rx="5" fill="url(#screen)"/><rect x="466" y="183" width="183" height="105" rx="5" fill="url(#screen)"/>
+<rect x="70" y="302" width="183" height="105" rx="5" fill="url(#screen)"/><rect x="268" y="302" width="183" height="105" rx="5" fill="url(#screen)"/><rect x="466" y="302" width="183" height="105" rx="5" fill="url(#screen)"/>
+</g>
+<g fill="#26352d" stroke="#a0ad9c" stroke-width="1" opacity=".9">
+<path d="M81 157V111h25V90h20v40h25V99h30v58Z"/><path d="M278 157v-36h24V83h24v40h26V95h24v62Z"/><path d="M476 157v-50h27V87h24v42h23v-26h32v54Z"/>
+<path d="M81 276v-40h24v-25h28v42h25v-31h27v54Z"/><path d="M278 276v-29h22v-38h26v40h25v-27h27v54Z"/><path d="M476 276v-40h24v-23h27v36h27v-30h27v57Z"/>
+<path d="M81 395v-40h25v-23h25v40h24v-25h28v48Z"/><path d="M278 395v-37h25v-22h25v37h25v-26h27v48Z"/><path d="M476 395v-35h24v-25h27v42h25v-29h28v47Z"/>
+</g>
+<g fill="#e2bd2a" opacity=".8"><circle cx="87" cy="79" r="3"/><circle cx="285" cy="79" r="3"/><circle cx="483" cy="79" r="3"/><circle cx="87" cy="198" r="3"/><circle cx="285" cy="198" r="3"/><circle cx="483" cy="198" r="3"/></g>
+<path d="M240 450h240l30 44H210Z" fill="#242622" stroke="#51534b" stroke-width="2"/><path d="M190 496h340l22 13H168Z" fill="#3a3c35"/><rect x="316" y="462" width="88" height="5" rx="2" fill="#f5c400" opacity=".8"/>
+<g transform="translate(533 349)"><rect x="0" y="0" width="92" height="42" rx="5" fill="#111" stroke="#f5c400" stroke-width="1.5"/><circle cx="15" cy="14" r="3" fill="#f5c400"/><path d="M25 14h54M11 27h69" stroke="#666" stroke-width="2"/><text x="46" y="38" fill="#eee" font-family="Arial" font-size="6" text-anchor="middle" letter-spacing="1">MONITORAMENTO</text></g>
+<path d="M585 20 620 33v25c0 22-16 35-35 44-19-9-35-22-35-44V33Z" fill="#111" stroke="url(#gold)" stroke-width="2"/><path d="M585 36a13 13 0 1 0 1 25h-10v-8h21v4c-2 10-8 16-17 16a21 21 0 1 1 15-36Z" fill="#f5c400"/>
+</svg>
